@@ -4,7 +4,9 @@ export default class MessageComponent extends Component {
     render() {
         return (
             <div>
-                <img src = {process.env.PUBLIC_URL + '/home/stitch.gif'} className = "img-fluid"/>
+                <div className = "center-align">
+                    <img src = {process.env.PUBLIC_URL + '/home/stitch.gif'} className = "img-fluid"/>
+                </div>
                 <hr/>
                 <div className = "container">
                     <div className = "row">

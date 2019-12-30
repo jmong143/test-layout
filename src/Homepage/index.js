@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
+import "./styles.css";
 
 export default class HomepageComponent extends Component {
     render() {
         return (
             <div>
-                <img src = {process.env.PUBLIC_URL + '/home/2020.gif'} className = "img-fluid"/>
-                <img src = {process.env.PUBLIC_URL + '/home/happy-new-year-gif.gif'} className = "img-fluid"/>
+                <div className = "center-align">
+                    <p><img src = {process.env.PUBLIC_URL + '/home/2020.gif'} className = "img-fluid"/></p>
+                    <p><img src = {process.env.PUBLIC_URL + '/home/happy-new-year-gif.gif'} className = "img-fluid"/></p>
+                </div>
                 <hr/>
                 <div className = "container">
                     <div className = "row">
