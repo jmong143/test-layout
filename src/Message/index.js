@@ -4,7 +4,7 @@ export default class MessageComponent extends Component {
     render() {
         return (
             <div>
-                message
+                
             </div>
         )
     }

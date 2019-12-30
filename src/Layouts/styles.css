@@ -1,3 +1,7 @@
 .navbar-color{
     background-color: #21A3F5 !important;
 }
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: #2604F9;
+}
