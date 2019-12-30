@@ -6,13 +6,7 @@ import {
     NavbarToggler,
     NavbarBrand,
     Nav,
-    NavItem,
-    NavLink,
-    UncontrolledDropdown,
-    DropdownToggle,
-    DropdownMenu,
-    DropdownItem,
-    NavbarText
+    NavItem
   } from 'reactstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faImage, faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -36,7 +30,7 @@ export default class NavbarComponent extends Component {
         return (
             <div>
             <Navbar className = "navbar-color" light expand="md">
-              <NavbarBrand href="/">Hi Anjanette!</NavbarBrand>
+              <NavbarBrand href="/"> Hi Anjanette! ❤️</NavbarBrand>
               <NavbarToggler onClick={this.toggleClick} />
               <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav className="mr-auto" navbar>
