@@ -4,7 +4,7 @@ export default class HomepageComponent extends Component {
     render() {
         return (
             <div>
-                thus is home
+                <img src = {process.env.PUBLIC_URL + '/home/happy-new-year-gif.gif'} className = "img-fluid"/>
             </div>
         )
     }
